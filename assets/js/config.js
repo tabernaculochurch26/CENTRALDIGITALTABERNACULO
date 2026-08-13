@@ -4,16 +4,16 @@ window.SITE_CONFIG = {
     name: "Tabernáculo Church",
     timezone: "America/New_York",
     address: "Philadelphia, PA",
-    logo: "assets/images/brand/logo.png"
+    logo: "assets/images/brand/LOGOV5teste 4.png"
   },
   links: {
-    maps: "https://maps.google.com/?q=Philadelphia%2C+PA",
+    maps: "https://share.google/3RnWGci1T8LWOnGly",
     gallery: "#",
     visit: "https://wa.me/10000000000?text=Ol%C3%A1!%20Quero%20planejar%20minha%20primeira%20visita.",
     prayer: "https://wa.me/10000000000?text=Ol%C3%A1!%20Gostaria%20de%20enviar%20um%20pedido%20de%20ora%C3%A7%C3%A3o.",
     baptism: "https://wa.me/10000000000?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20batismo.",
     serve: "https://wa.me/10000000000?text=Ol%C3%A1!%20Quero%20servir%20na%20Tabern%C3%A1culo.",
-    instagram: "https://instagram.com/",
+    instagram: "https://www.instagram.com/midiatabernaculochurch/",
     youtube: "https://youtube.com/",
     facebook: "https://facebook.com/"
   },
@@ -27,9 +27,9 @@ window.SITE_CONFIG = {
     friday: { tag: "É HOJE", title: "Hoje é dia de jovens", description: "Uma noite viva, feita para esta geração. Chame a galera e venha.", date: "Hoje • 8PM", location: "Philadelphia, PA", link: "#", image: "assets/images/events/jovens.jpg" }
   },
   photos: [
-    { src: "assets/images/gallery/momento-01.jpg", alt: "Momento de louvor na Tabernáculo Church" },
-    { src: "assets/images/gallery/momento-02.jpg", alt: "Comunidade reunida na Tabernáculo Church" },
-    { src: "assets/images/gallery/momento-03.jpg", alt: "Celebração na Tabernáculo Church" }
+    { src: "assets/images/gallery/IMG_4920.jpg", alt: "Momento de louvor na Tabernáculo Church" },
+    { src: "assets/images/gallery/IMG_4934.jpg", alt: "Comunidade reunida na Tabernáculo Church" },
+    { src: "assets/images/gallery/IMG_6068.jpg", alt: "Celebração na Tabernáculo Church" }
   ],
   message: { title: "Fé para recomeçar.", speaker: "Uma mensagem da Tabernáculo Church", url: "https://youtube.com/", image: "assets/images/messages/ultima-mensagem.jpg" },
   events: [
