@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061426">
+  <meta name="description" content="A central digital da Tabernáculo Church.">
+  <title>Tabernáculo Church</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Tabernáculo Church — início">
+      <img id="brand-logo" alt="" hidden>
+      <span class="brand-mark" aria-hidden="true">T</span>
+      <span><b>TABERNÁCULO</b><small>CHURCH</small></span>
+    </a>
+    <button class="menu-button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
+    <nav aria-label="Navegação principal">
+      <a href="#acontecendo">Agora</a><a href="#momentos">Momentos</a><a href="#visita">Visite</a><a href="#eventos">Eventos</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <p class="eyebrow">BEM-VINDO À TABERNÁCULO</p>
+      <h1>Um lugar para<br><em>pertencer.</em></h1>
+      <p class="hero-copy">Uma família, uma fé, um propósito. Há um lugar para você aqui.</p>
+      <div class="next-service glass" aria-live="polite">
+        <div><span class="live-dot"></span><p class="label">PRÓXIMO ENCONTRO</p><h2 id="service-name">Culto de Celebração</h2><p id="service-date">Domingo • 9:00 AM</p></div>
+        <div class="countdown" id="countdown">
+          <span><b id="days">00</b><small>DIAS</small></span><i>:</i><span><b id="hours">00</b><small>HORAS</small></span><i>:</i><span><b id="minutes">00</b><small>MIN</small></span>
+        </div>
+      </div>
+      <div class="hero-actions"><a class="button primary" data-link="maps">Como chegar <span>↗</span></a><a class="button ghost" href="#eventos">Ver agenda <span>↓</span></a></div>
+      <a class="scroll-cue" href="#acontecendo">DESCUBRA MAIS <span>↓</span></a>
+    </section>
+
+    <section class="section" id="acontecendo">
+      <div class="section-heading"><div><p class="eyebrow">EM DESTAQUE</p><h2>Acontecendo<br><em>agora.</em></h2></div><p id="context-note">O que está movimentando nossa casa esta semana.</p></div>
+      <article class="featured-card" id="featured-card">
+        <div class="featured-art media-fallback"><img id="featured-image" alt="" hidden><span id="featured-monogram">TC</span></div>
+        <div class="featured-content"><p class="tag" id="featured-tag">ESTA SEMANA</p><h3 id="featured-title">Culto de Jovens</h3><p id="featured-description">Uma noite de palavra, adoração e comunhão. Traga alguém com você.</p><div class="event-meta"><span id="featured-date">Sexta • 8PM</span><span id="featured-location">Philadelphia, PA</span></div><a class="text-link" id="featured-link" href="#">Saiba mais <span>→</span></a></div>
+      </article>
+    </section>
+
+    <section class="section moments" id="momentos">
+      <div class="section-heading"><div><p class="eyebrow">NOSSA FAMÍLIA</p><h2>Últimos<br><em>momentos.</em></h2></div><a class="text-link" data-link="gallery">Ver galeria <span>↗</span></a></div>
+      <div class="photo-grid" id="photo-grid"></div>
+    </section>
+
+    <section class="section first-visit" id="visita">
+      <div><p class="eyebrow">SUA PRIMEIRA VEZ?</p><h2>Você já é<br><em>bem-vindo.</em></h2></div>
+      <div><p>Sabemos que visitar um lugar novo pode dar aquele frio na barriga. Queremos tornar sua chegada simples e fazer você se sentir em casa desde o primeiro “olá”.</p><ul><li>Ambiente acolhedor para toda a família</li><li>Espaço preparado para as crianças</li><li>Pessoas prontas para receber você</li></ul><a class="button light" data-link="visit">Planejar minha visita <span>→</span></a></div>
+    </section>
+
+    <section class="section help">
+      <div class="center-heading"><p class="eyebrow">ESTAMOS COM VOCÊ</p><h2>Como podemos<br><em>caminhar juntos?</em></h2></div>
+      <div class="action-grid">
+        <a class="action-card" data-link="prayer"><span class="action-number">01</span><div><h3>Oração</h3><p>Conte com a gente. Envie seu pedido de forma reservada.</p></div><b>↗</b></a>
+        <a class="action-card" data-link="baptism"><span class="action-number">02</span><div><h3>Batismo</h3><p>Dê o próximo passo e celebre publicamente sua fé.</p></div><b>↗</b></a>
+        <a class="action-card" data-link="serve"><span class="action-number">03</span><div><h3>Servir</h3><p>Use seus dons e faça parte do que Deus está construindo.</p></div><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="section message" id="mensagem">
+      <div class="video-card media-fallback"><img id="message-image" alt="" hidden><a id="message-play" class="play" aria-label="Assistir à última mensagem">▶</a><span>ÚLTIMA MENSAGEM</span></div>
+      <div><p class="eyebrow">PALAVRA QUE TRANSFORMA</p><h2 id="message-title">Fé para<br><em>recomeçar.</em></h2><p id="message-speaker">Uma mensagem da Tabernáculo Church</p><a class="text-link" id="message-link">Assistir mensagem <span>↗</span></a></div>
+    </section>
+
+    <section class="section events" id="eventos">
+      <div class="section-heading"><div><p class="eyebrow">MARQUE NA AGENDA</p><h2>Próximos<br><em>eventos.</em></h2></div></div>
+      <div class="event-list" id="event-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main"><div class="footer-word">TABERNÁCULO</div><p>Uma família. Uma fé.<br>Um propósito.</p></div>
+    <div class="footer-bottom"><p id="footer-address">Philadelphia, PA</p><div id="social-links"></div><p>© <span id="year"></span> Tabernáculo Church</p></div>
+  </footer>
+</body>
+</html>
